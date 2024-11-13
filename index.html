@@ -1,0 +1,898 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>ORC Engineering</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        
+        <link href="css/style.css" rel="stylesheet">
+    
+        <style>
+        .gallery {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+        
+        .image-row {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        .team-item {
+            flex: 0 0 25%; /* Adjust for 4 items per row */
+            max-width: 90%;
+        }
+        </style>
+   
+
+
+
+  <style>
+    .content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    h4, h1, p {
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: large;
+    }
+
+    b {
+        color: black;
+    }
+    .btn123 {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 15px 30px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    
+</style>
+<style>
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 10%;
+        
+    }
+
+    .about-image {
+        max-width: 100%;
+        height: auto;
+       
+        margin: 90px 0; /* Add space above and below */
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .subtitle {
+        font-family: cursive;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .title {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        color: black;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .benefits {
+        color: black;
+        text-align: justify;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .benefits li {
+        margin-bottom: 10px;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .btn-ash {
+        background-color: #a9a9a9;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        padding: 15px 30px;
+        text-decoration: none;
+    }
+
+    /* Responsive styling */
+    @media (min-width: 768px) {
+        .about-section {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .about-image {
+            width: 50%;
+            margin-right: 20px;
+        }
+
+        .about-content {
+            width: 50%;
+            text-align: left;
+        }
+    }
+</style>
+<style>
+    body {
+        background: linear-gradient(to right, #000428, #004e92);
+    }
+    
+    /* Or for a specific section */
+    .bg-breadcrumb {
+        background: linear-gradient(to right, #000428, #004e92);
+    }
+</style>
+       
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        
+        <!-- Topbar End -->
+<!--
+<div class="container">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourusername" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>  -->
+
+        <!-- Navbar & Hero Start -->
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="logo11.png" style="max-height: 100px; width: 300px; margin-left: -15;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="service.html" class="nav-link dropdown-toggle" >Works on</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="virtual.html" class="dropdown-item">TeleCommunications</a>
+                                <a href="childcare.html" class="dropdown-item">EV Vehicles</a>
+                                <a href="detex.html" class="dropdown-item">Petrol Bunk</a>
+                                <a href="Ayurjyothish.html" class="dropdown-item">Energy Audit</a>
+                                
+                            </div>
+                        </div>
+                        <a href="blog.html" class="nav-item nav-link">Resources</a>
+                        <a href="careers.html" class="nav-item nav-link">careers</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        
+                    </div>
+                   
+                </div>
+            </nav><br>
+
+            
+
+            <!-- Carousel Start -->
+            <section class="about-section" style="background-image: url('12.jpg'); background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center; color: white;">
+                <div class="about-content" style="padding: 20px; border-radius: 10px;">
+                    <h5 class="subtitle" style="font-size: 2.5em; font-family: 'Arial', sans-serif; white-space: nowrap; animation: fadeInUp 1s ease-out;">
+                        Welcome To ORC Engineering
+                    </h5>
+                    <p class="description" style="font-size: 1.2em; animation: fadeInUp 2s 0.5s ease-out; color: white;">
+                        ORC Engineering is an integrated engineering services and manufacturing company operating in India. We are in the business of delivering client-specific solutions for projects related to Networking, Infrastructure, Solar Energy, Electrical & Electronics industry. The integrated package of services encompasses engineering, procurement, manufacturing, construction, commissioning and maintenance
+                    </p>
+                    <ul class="benefits" style="list-style-type: none; padding: 0; font-size: 1.1em; animation: fadeInUp 2s 1s ease-out;">
+                        <li style="color: white;"><i class="fa fa-check text-primary me-2"></i>Purpose of Ayurveda is to heal and to maintain the quality and longevity of life</li>
+                        <li style="color: white;"><i class="fa fa-check text-primary me-2"></i>Works on a profound understanding of each person’s unique body, mind, and consciousness.</li>
+                        <li style="color: white;"><i class="fa fa-check text-primary me-2"></i>Unlock the power of Ayurvedic care for total well-being and lasting balance.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <br><br>
+            
+            <!-- Carousel End -->
+        <!-- Navbar & Hero End -->
+          <!-- About Start -->`
+          <div class="col-lg-12 wow fadeInRight text-center" data-wow-delay="0.4s"> <!-- Added text-center class -->
+            <div class="section-title mb-5">
+                
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">About Us</h4>
+                    </div>
+                    <h1 class="display-3 mb-4"></h1>
+                </div>
+               
+                <div class="founder-info">
+                    
+                    <p style="text-align: justify; color: white;">
+
+                        ORC Engineering is an integrated engineering services and manufacturing company operating in India. We are in the business of delivering client-specific solutions for projects related to Networking, Infrastructure, Solar Energy, Electrical & Electronics industry. The integrated package of services encompasses engineering, procurement, manufacturing, construction, commissioning and maintenance
+
+                        ORC Engineering is a multinational company renowned globally for its quality, safety and on-time delivery of projects and products. ORC Engineering specializes in design consultancy, civil design, electrical design, mechanical design and Engineering management. We are experts in EPC, Construction, Maintenance/Industrial Services, Infrastructure and Manufacturing. All the faculties required to deliver turnkey projects, reside within the company. This unique strength enables us to provide solutions as EPCC (Engineering, Procurement, Construction and Commissioning) services provider to a host of international clients
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+
+      
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">What We Do</h4>
+                    </div><br><br>
+                    <h1 class="display-3 mb-4" style="color: white;">Our Services</h1>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <!-- Virtual Consultation -->
+                    <div class="col-12 col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded" style="height: auto;">
+                            <div class="service-img rounded-top" style="height: 180px; overflow: hidden;">
+                                <img src="tele.jpg" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4 text-center">Telecommunication</h5>
+                                    <p class="mb-4 text-center">Your path to well-being begins here. Let’s ignite your inner vitality from the comfort of your own home.</p>
+                                    <div class="text-center mb-2">
+                                        <a href="virtual.html" class="btn btn-primary rounded-pill text-white py-2 px-4">Read More</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Child Care -->
+                    <div class="col-12 col-md-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded" style="height: auto;">
+                            <div class="service-img rounded-top" style="height: 180px; overflow: hidden;">
+                                <img src="ev.jpg" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4 text-center">Ev Vehicles</h5>
+                                    <p class="mb-4 text-center">Cultivate well-being from the start, support your child's growth with gentle Ayurvedic wisdom.</p>
+                                    <div class="text-center mb-2">
+                                        <a href="childcare.html" class="btn btn-primary rounded-pill text-white py-2 px-4">Read More</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Detox Plan -->
+                    <div class="col-12 col-md-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded" style="height: auto;">
+                            <div class="service-img rounded-top" style="height: 180px; overflow: hidden;">
+                                <img src="energy.jpg" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4 text-center">Energy Audit</h5><br>
+                                    <p class="mb-4 text-center">Our bodies are naturally designed to detoxify and eliminate toxins, enhancing health.</p>
+                                    <div class="text-center mb-2">
+                                        <a href="detex.html" class="btn btn-primary rounded-pill text-white py-2 px-4">Read More</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Ayur Jyotish -->
+                    <div class="col-12 col-md-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded" style="height: auto;">
+                            <div class="service-img rounded-top" style="height: 180px; overflow: hidden;">
+                                <img src="petrol.jpg" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4 text-center">Petrol Bunk</h5><br>
+                                    <p class="mb-4 text-center">Discover how planets in your astrological chart affect your body, mind, and well-being.</p>
+                                    <div class="text-center mb-2">
+                                        <a href="Ayurjyothish.html" class="btn btn-primary rounded-pill text-white py-2 px-4">Read More</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+                    
+              
+        <br><br><br><br>
+        
+        
+        
+
+
+         <!-- work process-->
+         <div class="container-fluid feature py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Hiring Process</h4>
+                    </div><br><br><br>
+                    <p class="mb-0" style="color: white;">We follow a unique and personalized approach to healing. Our Vaidya begin each treatment process by conducting a thorough analysis of the patient’s body type, medical history, and current health conditions</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="row-cols-1 feature-item p-4">
+                            <div class="col-12">
+                                <div class="feature-icon mb-4">
+                                    <div class="p-3 d-inline-flex bg-white rounded">
+                                        
+                                    </div>
+                                </div>
+                                <div class="feature-content d-flex flex-column">
+                                    <h5 class="mb-4">Make Application</h5>
+                                     <p>Applay through online indeed,linked in online platforms </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="row-cols-1 feature-item p-4">
+                            <div class="col-12">
+                                <div class="feature-icon mb-4">
+                                    <div class="p-3 d-inline-flex bg-white rounded">
+                                       
+                                    </div>
+                                </div>
+                                <div class="feature-content d-flex flex-column">
+                                    <h5 class="mb-4">Technical Interview</h5>
+                                     <p>The next stage involves a thorough interview with director</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row-cols-1 feature-item p-4">
+                            <div class="col-12">
+                                <div class="feature-icon mb-4">
+                                    <div class="p-3 d-inline-flex bg-white rounded">
+                                        
+                                    </div>
+                                </div>
+                                <div class="feature-content d-flex flex-column">
+                                    <h5 class="mb-4">HR Interview</h5>
+                                    <p>The Ayurvedic practitioner creates a personalized treatment plan for the patient.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                   
+                    
+                    
+                    
+                </div>
+            </div>
+        </div><br><br><br>
+
+<!-- Strip Layout End -->
+
+
+
+<!-- Strip layout end -->
+        <!-- Services Start -->
+        
+        <!-- Services End -->
+         <!-- Background image strip layout page-->
+        
+    <br><br><br><br><br>
+
+
+     <!--strip-->
+
+        
+        
+
+       
+
+
+        <!-- Feature Start -->
+       <!-- why choose us-->
+        <!-- why choose end-->
+        <!-- Feature End -->
+        
+          <!-- work process end-->
+
+
+        <!-- Book Appointment Start -->
+      
+        <!-- Book Appointment End -->
+
+       
+      <br><br><br>
+
+
+        <!-- Testimonial Start -->
+        <div >
+            <div class="container py-5">
+                <div class="section-title mb-5">
+                    <div class="sub-style">
+                        <h4 class="sub-title  px-3 mb-0" style="color: white;">Testimonial</h4><br>
+                    </div><br>
+                    <h1 class="display-3 mb-4" style="color: white;">What Clients are Saying</h1>
+                </div>
+                <div class="testimonial-carousel owl-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner p-5">
+                            <div class="testimonial-inner-img mb-4">
+                                <img src="img/testimonial-imgjpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <p style="color: white;">I never realized how much my lifestyle was impacting my health until I visited Kashyap Ayurvedic. The team was incredibly knowledgeable and supportive. They provided me with simple yet effective strategies to reduce stress and improve my overall well-being. I highly recommend their services
+                            </p>
+                            <div class="text-center">
+                                <h5 class="mb-2">Yuvraj Singh</h5>
+                                <p style="color: white;">Patiyala, Haryana</p>
+                                <div class="d-flex justify-content-center">
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner p-5">
+                            <div class="testimonial-inner-img mb-4">
+                                <img src="img/testimonial-imgjpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <p style="color: white;">I never realized how much my lifestyle was impacting my health until I visited Kashyap Ayurvedic. The team was incredibly knowledgeable and supportive. They provided me with simple yet effective strategies to reduce stress and improve my overall well-being. I highly recommend their services
+                            </p>
+                            <div class="text-center">
+                                <h5 class="mb-2">Kiran</h5>
+                                <p style="color: white;">Mumbai, Maharastra</p>
+                                <div class="d-flex justify-content-center">
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner p-5">
+                            <div class="testimonial-inner-img mb-4">
+                                <img src="img/testimonial-imgjpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <p style="color: white;">I never realized how much my lifestyle was impacting my health until I visited Kashyap Ayurvedic. The team was incredibly knowledgeable and supportive. They provided me with simple yet effective strategies to reduce stress and improve my overall well-being. I highly recommend their services
+                            </p>
+                            <div class="text-center">
+                                <h5 class="mb-2">Ravi Yendlawar</h5>
+                                <p style="color: white;">Hyderabad, Telangana</p>
+                                <div class="d-flex justify-content-center">
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br><br>
+        <br>
+        <!-- Testimonial End -->
+
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Our Projects</h4>
+                    </div>
+                    <h1 class="display-3 mb-4" style="color: white;">Projects</h1>
+    
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog-1.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2024</p>
+                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                                </div>
+                                <a href="#" class="h4">The Healing Power of Murma Massage</a>
+                                <p class="my-4">Murma massage is a traditional therapeutic technique that focuses on the head, promoting relaxation and relieving stress</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2024</p>
+                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                                </div>
+                                <a href="#" class="h4">The Power of Ayurvedic Herbal oils in a Massage Therapy</a>
+                                <p class="my-4">Murma massage is a traditional therapeutic technique that focuses on the head, promoting relaxation</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog-3.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2024</p>
+                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                                </div>
+                                <a href="#" class="h4">Regular excercise can slow ageing process</a>
+                                <p class="my-4">Murma massage is a traditional therapeutic technique that focuses on the head, promoting relaxation and relieving stress</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <!-- Blog End -->
+
+         <!-- our Gallery-->
+        <!-- Team Start -->
+        <div class="container-fluid team py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Our Gallery</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery">
+                    <div class="image-row">
+                        <!-- First batch of images -->
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="gl1.JPG1" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="gl2.JP1G" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="gl3.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="gl4.J1PG" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="image-row" style="display: none;">
+                        <!-- Second batch of images -->
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="_DSC8312.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="_DSC8318.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="_DSC8520.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="_DSC8304.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="image-row" style="display: none;">
+                        <!-- Third batch of images -->
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="_DSC8306.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="1.jpg1" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="2.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="3.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row g-4 justify-content-center image-row" style="display: none;">
+                        <!-- Fourth batch of images -->
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="1.jp1g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="2.jp11g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="3.jp11g" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item rounded">
+                                <div class="team-img rounded-top" style="height: 200px; overflow: hidden;">
+                                    <img src="4.j1pg" class="img-fluid rounded-top w-100" alt="" style="height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        
+        <!-- Gallery -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <img src="logo11.png" style="max-height: 100px; width: auto; margin-bottom: 15px; margin-left: -30px;">
+                            
+                            <p>
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-white me-2"></i>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Quick Links</h4>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                            <a href="Privacy.html"><i class="fas fa-angle-right me-2"></i> Privacy and Policy</a>
+                            <a href="terms.html"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                            <a href="blog.html"><i class="fas fa-angle-right me-2"></i> Our Blog </a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Services</h4>
+                            <a href="virtual.html"><i class="fas fa-angle-right me-2"></i>TeleCommunications</a>
+                            <a href="Ayurjyothish.html"><i class="fas fa-angle-right me-2"></i>Ev Vechicles</a>
+                            <a href="childcare.html"><i class="fas fa-angle-right me-2"></i>Petrol Bunk</a>
+                            <a href="detex.html"><i class="fas fa-angle-right me-2"></i>Energy Audit</a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Contact Info</h4>
+                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, Mumbai, India</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> hr@orcengineering.com</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> admin@orcengineering.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <!-- strip layout dynamically increases-->
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const counters = document.querySelectorAll('.count');
+                
+                counters.forEach(counter => {
+                    const updateCount = () => {
+                        const target = +counter.getAttribute('data-target');
+                        const count = +counter.innerText;
+        
+                        // Adjust these values for speed control
+                        const increment = target / 20000; // Lower this value to speed up
+                        const delay = 1000; // Increase this value to slow down
+        
+                        if (count < target) {
+                            counter.innerText = Math.ceil(count + increment);
+                            setTimeout(updateCount, delay); // Change this for slower/faster
+                        } else {
+                            counter.innerText = target;
+                        }
+                    };
+                    updateCount();
+                });
+            });
+        </script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const rows = document.querySelectorAll('.image-row');
+            let currentIndex = 0;
+    
+            function showNextRow() {
+                // Hide the current row
+                rows[currentIndex].style.display = 'none';
+                
+                // Increment the index
+                currentIndex = (currentIndex + 1) % rows.length;
+    
+                // Show the next row
+                rows[currentIndex].style.display = 'flex'; // Adjust for flex display
+            }
+    
+            // Show the first row initially
+            rows[currentIndex].style.display = 'flex';
+    
+            // Change rows every 4 seconds (4000 milliseconds)
+            setInterval(showNextRow, 4000);
+        });
+    </script>
+        
+        
+        
+    </body>
+    
+
+</html>
