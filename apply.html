@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 25px;
+        }
+        .form-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #6ccbd7;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .gender-group {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Apply for Junior Engineer Position</h2>
+    <form action="apply.php" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label>Gender *</label>
+            <div class="gender-group">
+                <label><input type="radio" name="gender" value="Male" required> Male</label>
+                <label><input type="radio" name="gender" value="Female" required> Female</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth *</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Mobile No. *</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="state">State *</label>
+            <input type="text" id="state" name="state" required>
+        </div>
+        <div class="form-group">
+            <label for="location">Location/District *</label>
+            <input type="text" id="location" name="location" required>
+        </div>
+        <div class="form-group">
+            <label for="qualification">Highest Qualification *</label>
+            <input type="text" id="qualification" name="qualification" required>
+        </div>
+        <div class="form-group">
+            <label for="year">Year of Passing *</label>
+            <input type="number" id="year" name="year" required>
+        </div>
+        <div class="form-group">
+            <label for="resume">Upload Resume *:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        </div>
+        <button type="submit" class="btn">Submit Application</button>
+    </form>
+</div>
+
+</body>
+</html>
